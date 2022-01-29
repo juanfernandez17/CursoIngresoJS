@@ -11,3 +11,6 @@ function mostrar()
 	alert('Usted se llama ' + nombre + ' y tiene ' + edad + ' años.');
 }
 
+/* A la variable nombre y edad le asigno los valores que el usuario ingresa en la caja 
+de texto en el documento HTML  */
+
