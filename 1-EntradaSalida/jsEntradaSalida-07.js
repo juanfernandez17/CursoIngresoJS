@@ -14,24 +14,24 @@ numeroDos = parseInt(document.getElementById('txtIdNumeroDos').value);
 function sumar()
 {	
 	resultado = numeroUno + numeroDos;
-	alert("La suma es " + resultado);	
+	alert(`La suma es ${resultado}`);	
 }
 
 function restar()
 {
 	resultado = numeroUno - numeroDos
-	alert('La resta es ' + resultado);
+	alert(`La resta es ${resultado}`);
 }
 
 function multiplicar()
 { 
 	resultado = numeroUno * numeroDos
-	alert('La multiplicación es ' + resultado);
+	alert(`La muliplicación es ${resultado}`);
 }
 
 function dividir()
 {
 	resultado = numeroUno / numeroDos
-	alert('La división es ' + resultado);
+	alert(`La división es ${resultado}`);
 }
 

@@ -13,6 +13,6 @@ function sumar()
 	resultado = numeroUno + numeroDos
 
 
-	alert('La suma es ' + resultado);
+	alert(`La suma es ${resultado}`);
 }
 

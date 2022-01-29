@@ -8,7 +8,7 @@ function mostrar()
 	nombre = document.getElementById('txtIdNombre').value;
 	edad = document.getElementById('txtIdEdad').value;
 
-	alert('Usted se llama ' + nombre + ' y tiene ' + edad + ' años.');
+	alert(`Usted se llama ${nombre} y tiene ${edad} años`)
 }
 
 /* A la variable nombre y edad le asigno los valores que el usuario ingresa en la caja 
