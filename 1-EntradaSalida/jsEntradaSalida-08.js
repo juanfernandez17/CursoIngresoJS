@@ -6,7 +6,7 @@ ej.: "El resto es 0 ."*/
 function SacarResto()
 {
 	let dividendo = parseInt(document.getElementById('txtIdNumeroDividendo').value);
-		divisor = parseInt(document.getElementById('txtIdNumeroDivisor').value);
-		resto = dividendo % divisor
+	let divisor = parseInt(document.getElementById('txtIdNumeroDivisor').value);
+	let resto = dividendo % divisor
 	alert(`El resto es ${resto}`);
 }
