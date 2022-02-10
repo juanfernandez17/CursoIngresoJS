@@ -1,7 +1,17 @@
+/*
+Fernandez Juan Ignacio
+Ejercicio: InstruccionIF 04
+*/
+
 function mostrar()
 {
-	//tomo la edad  
-	alert("ok");
+	var edad;
 
+	edad = document.getElementById('txtIdEdad').value;
+	edad = parseInt(edad);
 
-}//FIN DE LA FUNCIÓN
+	if (edad > 12 && edad < 18)
+	{
+		alert('La persona es adolescente');
+	}
+}

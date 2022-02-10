@@ -1,8 +1,19 @@
+/*
+Fernandez Juan Ignacio
+Ejercicio: InstruccionIF 08
+*/
+
 function mostrar()
 {
-	//tomo la edad  
-	alert("ok");
+	var edad;
+	var estadoCivil;
+
+	edad = document.getElementById('txtIdEdad').value;
+	estadoCivil = document.getElementById('estadoCivil').value;
+	edad = parseInt(edad);
 	
-
-
-}//FIN DE LA FUNCIÓN
+	if (edad > 17 && estadoCivil === 'Soltero')
+	{
+		alert('Es soltero y no es menor.');
+	}
+}

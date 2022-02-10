@@ -1,6 +1,14 @@
+/*
+Fernandez Juan Ignacio
+Ejercicio: InstruccionIF 09
+*/
+
 function mostrar()
 {
-	//Genero el número RANDOM entre 1 y 10 
-	alert("ok");	
+	var numRandom;
 
-}//FIN DE LA FUNCIÓN
+	numRandom = (Math.random() * 10) + 1;
+	numRandom = Math.floor(numRandom);
+	
+	alert('Número: ' + numRandom);
+}
