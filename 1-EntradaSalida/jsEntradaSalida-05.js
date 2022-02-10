@@ -1,16 +1,18 @@
 /*
 Debemos lograr tomar nombre y edad por ID y mostrarlos concatenados 
-ej.: "Usted se llama José y tiene 66 años" 	*/
+ej.: "Usted se llama José y tiene 66 años" 
+
+Fernandez Juan Ignacio
+
+*/
 function mostrar()
 {	
-	let nombre;
-	let edad;
+	var nombre;
+	var edad;
+
 	nombre = document.getElementById('txtIdNombre').value;
 	edad = document.getElementById('txtIdEdad').value;
 
-	alert(`Usted se llama ${nombre} y tiene ${edad} años`)
+	alert('Usted se llama ' + nombre + ' y tiene ' + edad + ' años');
 }
-
-/* A la variable nombre y edad le asigno los valores que el usuario ingresa en la caja 
-de texto en el documento HTML  */
 
